@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.header {
+  position: relative;
+  background: #3178c6;
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.hero-text {
+  font-size: 2rem;
+  color: #f5f5f5;
+  text-transform: capitalize;
+}
+
+.middle-section {
+  position: relative;
+  width: 100%;
+  padding: 0.7rem 2rem;
+  background: #262626;
+  color: #f5f5f5;
+}
+
+.middle-section-text {
+  font-size: 1.2rem;
+  text-transform: lowercase;
+}
+
+.middle-section a img {
+  height: 1.7rem;
+}
+
+.end-section {
+  position: relative;
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.learn-ts-container {
+  width: 50%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.counter-example {
+  width: 50%;
+  font-family: monospace;
+  font-size: 1.4rem;
+}
+
+#increment,
+#decrement {
+  padding: 0.4rem;
+  font-size: 1.2rem;
+  background-color: #aca8a823;
+  border: none;
+  outline: none;
+}
+
+#increment:hover,
+#decrement:hover {
+  background-color: #262626;
+  color: #f5f5f5;
+}
+
+.learn-ts-text {
+  color: #111111;
+  font-size: 2rem;
+}
+
+.learn-ts-container a {
+  text-decoration: none;
+}
+
+.get-started-btn {
+  cursor: pointer;
+  background-color: #3178c6;
+  border: none;
+  outline: none;
+  color: #f5f5f5;
+  display: flex;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  padding: 0.5rem 1rem;
+}
+
+.get-started-btn:hover {
+  background-color: #262626;
+}
+
+.flex {
+  display: flex;
+  gap: 10px;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,20 @@
+{
+  "name": "vanilla-typecript-template",
+  "version": "1.0.0",
+  "description": "A template for building html,css and typescript web apps",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "webpack --watch",
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ts-loader": "^9.2.5",
+    "typescript": "^4.3.5",
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0"
+  }
+}
