@@ -43,7 +43,7 @@ npm install
 
 ```
 
-This will install all the need dependencies in the package.json
+This will install all the  dependencies in the package.json
 
 Then:
 
