@@ -1,15 +1,18 @@
 {
   "root": true,
   "parser": "@typescript-eslint/parser",
-  "plugins": ["@typescript-eslint"],
+  "plugins": ["@typescript-eslint","prettier"],
   "extends": [
     "eslint:recommended",
     "plugin:@typescript-eslint/eslint-recommended",
-    "plugin:@typescript-eslint/recommended"
+    "plugin:@typescript-eslint/recommended",
+    "prettier"
   ],
   "rules": {
     "no-duplicate-imports": "error",
     "no-unused-vars": "warn",
-    "prefer-const": "warn"
+    "prefer-const": "warn",
+    "no-console": "warn",
+    "func-names": "off"
   }
 }
