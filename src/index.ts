@@ -1,5 +1,5 @@
-import { decrement } from "./helpers/decrement";
-import { increment } from "./helpers/increment";
+import decrement from "./helpers/decrement";
+import increment from "./helpers/increment";
 
 const incrementButton = <HTMLButtonElement>document.querySelector("#increment");
 const decrementButton = <HTMLButtonElement>document.querySelector("#decrement");
@@ -18,4 +18,4 @@ const handleDecrementClick = () => {
 };
 
 incrementButton.addEventListener("click", handleIncrementClick);
-decrementButton?.addEventListener("click", handleDecrementClick);
+decrementButton.addEventListener("click", handleDecrementClick);

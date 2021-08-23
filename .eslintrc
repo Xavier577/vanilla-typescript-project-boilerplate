@@ -3,20 +3,29 @@
   "parser": "@typescript-eslint/parser",
   "plugins": ["@typescript-eslint", "prettier"],
   "extends": [
+    "airbnb",
+    "airbnb-typescript/base",
     "eslint:recommended",
     "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended",
     "prettier"
   ],
+  "parserOptions": {
+    "project": "./src/tsconfig.json"
+  },
   "rules": {
+    "@typescript-eslint/explicit-module-boundary-types": "off",
+    "@typescript-eslint/no-unused-vars": "warn",
+    "class-methods-use-this": "off",
+    "func-names": "off",
+    "import/prefer-default-export": "warn",
+    "no-console": "warn",
     "no-duplicate-imports": "error",
     "no-unused-vars": "warn",
+    "no-plusplus": "warn",
+    "no-param-reassign": "off",
     "prefer-const": "warn",
-    "no-console": "warn",
-    "func-names": "off",
     "object-shorthand": "off",
-    "class-methods-use-this": "off",
-    "@typescript-eslint/explicit-module-boundary-types": "off",
-    "@typescript-eslint/no-unused-vars": "warn"
+    "spaced-comment": "warn"
   }
 }
