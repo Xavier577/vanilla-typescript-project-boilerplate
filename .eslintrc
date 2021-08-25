@@ -11,7 +11,7 @@
     "prettier"
   ],
   "parserOptions": {
-    "project": "./src/tsconfig.json"
+    "project": "./tsconfig.json"
   },
   "rules": {
     "@typescript-eslint/explicit-module-boundary-types": "off",
