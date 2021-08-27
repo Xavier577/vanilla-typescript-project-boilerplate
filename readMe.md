@@ -2,7 +2,7 @@
 
 This is template used to make plain html and css projects with Typescript
 
-[![GitHub tag](https://img.shields.io/github/tag/Xavier577/vanilla-typescript-project-template?include_prereleases=&sort=semver)](https://github.com/Xavier577/vanilla-typescript-project-template/releases)
+[![GitHub tag](https://img.shields.io/github/tag/Xavier577/vanilla-typescript-project-boilerplate?include_prereleases=&sort=semver)](https://github.com/Xavier577/vanilla-typescript-project-boilerplate/releases)
 [![License](https://img.shields.io/badge/License-MIT-blue)](#license)
 
 [![Made with Node.js](https://img.shields.io/badge/Node.js->=12-blue?logo=node.js&logoColor=white)](https://nodejs.org)
@@ -16,13 +16,13 @@ This enable the use of modules in the typescript code. All imports used in the i
 
 <p>
 <span style="font-size: 1.3rem"> Click on the <em>"use template"</em> button </span> <br/>
-<img src="https://xavier577.github.io/vanilla-typescript-project-template/screenshots/useTemplate.PNG"alt="use template"/> 
+<img src="https://xavier577.github.io/vanilla-typescript-project-boilerplate/screenshots/useTemplate.PNG"alt="use template"/> 
 </p>
 
 <p>
 <span style="font-size: 1.3rem"> Input your the name of your Project and click <em>"create project from repository"</em> button </span> <br/>
 <img 
-src="https://xavier577.github.io/vanilla-typescript-project-template/screenshots/create-project-from-template.PNG"
+src="https://xavier577.github.io/vanilla-typescript-project-boilerplate/screenshots/create-project-from-template.PNG"
 alt="create new project from template"
 />
 
@@ -30,12 +30,12 @@ alt="create new project from template"
 
 <p>
 <span style="font-size: 1.3rem"> You should see that your new project's repository has been created </span><br/>
-<img src="https://xavier577.github.io/vanilla-typescript-project-template/screenshots/new-project-created.PNG" alt="new-project-created">
+<img src="https://xavier577.github.io/vanilla-typescript-project-boilerplate/screenshots/new-project-created.PNG" alt="new-project-created">
 </p>
 
 <p>
 <span style="font-size: 1.3rem"> copy the link to clone the repo to your local machine (note the link will be different depending on your repository account and your project name)</span> <br/>
-<img src="https://xavier577.github.io/vanilla-typescript-project-template/screenshots/clone-from-your-repo.PNG" alt="copy-repo-link">
+<img src="https://xavier577.github.io/vanilla-typescript-project-boilerplate/screenshots/clone-from-your-repo.PNG" alt="copy-repo-link">
 </p>
 
 > after cloning your repo to your local machine with the git clone command
@@ -70,7 +70,7 @@ open index.html (if you are using visual studio code as your text editor use liv
 <span style="font-size: 1.3rem"> 
 If all the steps are done correctly the counter-example  show be rendered  in your browser when you open index.html in your browser with liveserver
 </span> <br/>
-<img src="https://xavier577.github.io/vanilla-typescript-project-template/screenshots/counter-example.PNG" alt="counter-example">
+<img src="https://xavier577.github.io/vanilla-typescript-project-boilerplate/screenshots/counter-example.PNG" alt="counter-example">
 </p>
 
-[check out the github repo](https://github.com/Xavier577/vanilla-typescript-project-template)
+[check out the github repo](https://github.com/Xavier577/vanilla-typescript-project-boilerplate)
