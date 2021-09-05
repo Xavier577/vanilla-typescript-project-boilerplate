@@ -1,6 +1,6 @@
-const path = require("path");
+import path from "path";
 
-module.exports = {
+const webpackConfig = () => ({
   mode: "production",
   entry: path.resolve(__dirname, "./src/index.ts"),
   module: {
@@ -19,4 +19,6 @@ module.exports = {
     filename: "script.js",
     path: path.resolve(__dirname, "public","static","bundle"),
   }
-  };
+  });
+
+export default webpackConfig;
