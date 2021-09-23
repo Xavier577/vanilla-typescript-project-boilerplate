@@ -18,8 +18,12 @@ To use this template you can run:
 
 ```
 npx degit https://github.com/Xavier577/vanilla-typescript-project-boilerplate.git
+
 ```
-                                            or
+
+<p style="text-align: center;">
+  or
+</p>
 
 
 <p>
