@@ -14,6 +14,14 @@ This enable the use of modules in the typescript code. All imports used in the i
 
 # How to use template to create your own projects
 
+To use this template you can run:
+
+```
+npx degit https://github.com/Xavier577/vanilla-typescript-project-boilerplate.git
+```
+                                            or
+
+
 <p>
 <span style="font-size: 1.3rem"> Click on the <em>"use template"</em> button </span> <br/>
 <img src="https://xavier577.github.io/vanilla-typescript-project-boilerplate/screenshots/useTemplate.PNG"alt="use template"/> 
