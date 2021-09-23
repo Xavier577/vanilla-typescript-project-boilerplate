@@ -52,6 +52,8 @@ alt="create new project from template"
 
 > after cloning your repo to your local machine with the git clone command
 
+# Installing the dependencies
+
 In the projects root directory
 
 ```
